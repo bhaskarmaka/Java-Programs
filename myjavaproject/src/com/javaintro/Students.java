@@ -12,7 +12,7 @@ public class Students {
 	}
 	
 	void calcPercentage() {
-		percentage=(totalMarks/300) * 100;
+		percentage=(totalMarks/300 * 100);
 	}
 	
 	void displayStudent() {
