@@ -14,7 +14,7 @@ public class Methods {
 		method4();
 		System.out.println("Method3 called");
 	}
-	void method4() {
+	static void method4() {
 		System.out.println("Method4 called");
 	}
 	public static void main(String[] args) {
