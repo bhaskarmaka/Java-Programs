@@ -14,8 +14,12 @@ public class Methods {
 		method4();
 		System.out.println("Method3 called");
 	}
-	static void method4() {
+	void method4() {
+		method5();
 		System.out.println("Method4 called");
+	}
+	static void method5() {
+		System.out.println("Method5 called");
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

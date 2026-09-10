@@ -58,7 +58,6 @@ public class ShoppingCart {
 		c1.displayCart();
 		c2.displayCart();
 		
-		
 	}
 
 }
