@@ -4,7 +4,7 @@ public class SecondMax {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 5, 7, 8, 2, 1, 9 };
+		int[] arr = { 1,3,4,5,3,5};
 
 		int max = Integer.MIN_VALUE;
 		int sec_max = Integer.MIN_VALUE;
@@ -13,7 +13,7 @@ public class SecondMax {
 			if (max < arr[i]) {
 				sec_max = max;
 				max = arr[i];
-			} else if (arr[i] > sec_max && sec_max!= max) {
+			}else if (arr[i] > sec_max && arr[i] != max) {
 				sec_max = arr[i];
 			} 
 		}
